@@ -62,7 +62,7 @@ Liberu Accounting is set to revolutionize the accounting landscape by offering a
 
 8. For certain configurations, you may need to set up sanctum stateful domains and session domain in the `.env` file. Additionally, add your domains to the `config/cors.php` file.
 
-9. Lastly, follow the installation steps for the client side by visiting the link provided: https://github.com/liberu-ui/genealogy.
+9. Lastly, follow the installation steps for the client side by visiting the link provided: https://github.com/liberu-ui/accounting.
 
 10. Launch the site and log into the project using the following credentials:
 
