@@ -1,0 +1,44 @@
+{
+    "name": "Customer",
+    "routePrefix": "customer",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Id",
+            "name": "id",
+            "data": "customers.id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "First Name",
+            "name": "first_name",
+            "data": "customers.customer_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Last Name",
+            "name": "customer_last_name",
+            "data": "customers.last_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Address",
+            "name": "customer_address",
+            "data": "customers.customer_address",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Email",
+            "name": "customer_email",
+            "data": "customers.customer_email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "City",
+            "name": "customer_city",
+            "data": "customers.city",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "routePrefix": "invoice",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Invoice",
+      "columns": 3,
+        "fields": [{
+            "label": "Customer id",
+            "name": "customer_id",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "number",
+                "source": "customer.id"
+            }
+        },
+            {
+                "label": "Order id",
+                "name": "order_id",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number",
+                    "source": "invoice.order_id"
+                }
+            },
+            {
+                "label": "Date",
+                "name": "invoice_date",
+                "value": null,
+                "meta": {
+                    "type": "datepicker",
+                    "time": true,
+                    "format" : "d/m/Y H:m",
+                    "source": "invoice.invoice_date"
+
+                    
+                }
+            },
+            {
+                "label": "Total amount",
+                "name": "total_amount",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+                }
+            },
+            {
+                "label": "Payment Status",
+                "name": "payment_status",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            }            
+        ]
+    }]
+}
