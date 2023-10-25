@@ -1,0 +1,57 @@
+{
+"name": "Company",
+    "routePrefix": "company",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Id",
+            "name": "company_id",
+            "data": "companies.company_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company Name",
+            "name": "company_name",
+            "data": "companies.company_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company Address",
+            "name": "company_address",
+            "data": "companies.company_address",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company Email",
+            "name": "company_email",
+            "data": "companies.company_email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company Phone",
+            "name": "company_phone",
+            "data": "companies.company_phone",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company City",
+            "name": "company_city",
+            "data": "companies.company_city",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company TIN",
+            "name": "company_tin",
+            "data": "companies.company_tin",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Company Logo",
+            "name": "company_logo",
+            "data": "companies.company_logo",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+    
+}

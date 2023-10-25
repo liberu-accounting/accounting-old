@@ -1,0 +1,83 @@
+{
+    "routePrefix": "company",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Company",
+      "columns": 5,
+      "fields": [
+        {
+          "label": "Company Name",
+          "name": "company_name",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text",
+            "placeholder": "Enter Company Name"
+
+          }
+        },
+
+        {
+          "label": "Company Address",
+          "name": "company_address",
+          "value": null,
+          "meta": {
+            "type": "text",
+            "content": "text",
+            "placeholder": "Enter Company Address"
+          }
+        },
+        {
+          "label": "Company Email",
+          "name": "company_email",
+          "value": null,
+          "meta": {
+            "type": "email",
+            "content": "email"
+          }
+        },
+        {
+          "label": "Company Phone Number",
+          "name": "company_phone",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "number"
+          }
+        },
+
+        {
+          "label": "Company City",
+          "name": "company_city",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        
+        {
+          "label": "Company Tin",
+          "name": "company_tin",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "number"
+           
+          }
+        },
+        {
+          "label": "Company Logo",
+          "name": "company_logo",
+          "value": null,
+          "meta": {
+            "type": "file",
+            "content": "image"
+          }
+        }
+
+      ]
+    }
+    ]
+}
