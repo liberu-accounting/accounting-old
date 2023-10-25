@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('customer_id');
             $table->timestamp('invoice_date');
             $table->decimal('total_amount', 10, 2);
+            $table->string('payment_status');
             $table->timestamps();
 
             $table->foreign('customer_id')->references('customer_id')->on('customers')->onDelete('cascade');
