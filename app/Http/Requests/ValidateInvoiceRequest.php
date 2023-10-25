@@ -22,7 +22,8 @@ class ValidateInvoiceRequest extends FormRequest
         return [
             'customer_id' => 'required|exists:customers,customer_id',
             'invoice_date' => 'required',
-            'total_amount' => 'required'
+            'total_amount' => 'required',
+            'invoice_payment_status' => 'required|in:paid,unpaid'
         ];
     }
 }
