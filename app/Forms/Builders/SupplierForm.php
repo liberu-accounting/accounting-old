@@ -5,7 +5,7 @@ namespace App\Forms\Builders;
 use App\Models\Supplier;
 use LaravelLiberu\Forms\Services\Form;
 
-class ProductCategoryForm
+class SupplierForm
 {
     protected const TemplatePath = __DIR__.'/../Templates/supplier.json';
 
