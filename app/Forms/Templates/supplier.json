@@ -1,0 +1,75 @@
+{
+    "routePrefix": "supplier",  
+    "tabs": true,
+    "sections": [
+        {
+            "tab": "Supplier",  
+            "columns": 5,  
+            "fields": [
+                {
+                    "label": "Supplier First Name",  
+                    "name": "supplier_first_name",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Supplier Last Name", 
+                    "name": "supplier_last_name",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Supplier Email", 
+                    "name": "supplier_email",  
+                    "value": null,
+                    "meta": {
+                        "type": "email",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Supplier Address",
+                    "name": "supplier_address",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Supplier Phone Number", 
+                    "name": "supplier_phone_number",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "number"
+                    }
+                },
+                {
+                    "label": "Supplier Credit Limit", 
+                    "name": "supplier_limit_credit",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Supplier TIN",  
+                    "name": "supplier_tin",  
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                }
+            ]
+        }
+    ]
+}
