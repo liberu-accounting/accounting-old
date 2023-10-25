@@ -23,7 +23,9 @@ class ValidateSupplierRequest extends FormRequest
             'supplier_last_name' => 'required|min:3|max:50',
             'supplier_email' => 'required|email|unique:suppliers,supplier_email',
             'supplier_address' => 'required|min:3|max:50',
-            'supplier_phone_number' => 'required|numeric'
+            'supplier_phone_number' => 'required|numeric',
+            'supplier_limit_credit' => 'required|numeric',
+            'supplier_tin' => 'required|min:3|max:50'
         ];
     }
 }
