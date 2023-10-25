@@ -13,7 +13,7 @@ class Index extends Controller
         $query = Customer::query();
 
         if ($request->has('search')) {
-            $query->where('first_name', 'like', '%' . $request->search . '%');
+            $query->where('customer_name', 'like', '%' . $request->search . '%');
         }
 
         $customer = $query->paginate(10);
