@@ -1,0 +1,65 @@
+{
+    "routePrefix": "customer",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Customer",
+      "columns": 3,
+        "fields": [{
+            "label": "Name",
+            "name": "customer_name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        },
+            {
+                "label": "Last name",
+                "name": "customer_last_name",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            },
+            {
+                "label": "Address",
+                "name": "customer_address",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            },
+            {
+                "label": "Email",
+                "name": "customer_email",
+                "value": null,
+                "meta": {
+                    "type": "text",
+                    "content": "email"
+                }
+            },
+            {
+                "label": "Phone",
+                "name": "customer_phone",
+                "value": null,
+                "meta": {
+                    "type": "text",
+                    "content": "number"
+                }
+            },
+            
+            {
+                "label": "City",
+                "name": "customer_city",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            }   
+        ]
+    }]
+}
