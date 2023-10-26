@@ -1,0 +1,49 @@
+{
+    "routePrefix": "asset-acquisitions",
+    "tabs": true,
+    "sections": [
+        {
+        "tab": "Asset Acquisition",
+        "columns": 3,
+        "fields": [
+            {
+                "label": "Asset Acquisition ID",
+                "name": "asset_acquisition_id",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+                }
+            },
+            {
+                "label": "Asset ID",
+                "name": "asset_id",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+                }
+            },
+            {
+                "label": "Acquisition Date",
+                "name": "acquisition_date",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "date"
+            
+                }
+            },
+            {
+                "label": "Acquisition Price",
+                "name": "acquisition_price",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "number"
+                }
+            }
+            ]
+        }
+    ]
+}
