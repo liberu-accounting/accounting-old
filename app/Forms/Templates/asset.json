@@ -1,0 +1,48 @@
+{
+"routePrefix": "asset",
+"tabs": true,
+"sections": [
+        {
+    "tab": "Asset",
+    "columns": 3,
+    "fields": [
+        {
+            "label": "Asset ID",
+            "name": "asset_id",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "number"
+            }
+        },
+        {
+            "label": "Asset Name",
+            "name": "asset_name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        },
+        {
+            "label": "Asset Cost",
+            "name": "asset_cost",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "number"
+            }
+        },
+        {
+            "label": "Useful Life (Years)",
+            "name": "useful_life_years",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "number"
+            }
+        }
+    ]
+}
+    ]
+}
