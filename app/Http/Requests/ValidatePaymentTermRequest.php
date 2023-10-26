@@ -13,13 +13,12 @@ class ValidatePaymentTermRequest extends FormRequest
 
     public function rules(): array
     {
-        $this->route('payment_term');
+        $this->route('payment-term');
 
         return [
             'payment_term_name' => 'required|min:3|max:50',
             'payment_term_description' => 'required|min:3|max:50',
             'payment_term_number_of_days' => 'required|numeric',
-            'payment_term_status' => 'required|in:active,inactive,pending'
         ];
     }
 }

@@ -1,0 +1,32 @@
+{
+    "name": "PaymentTerm",
+    "routePrefix": "payment-term",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Payment Term ID",
+            "name": "payment_term_id",
+            "data": "payment_terms.payment_term_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Payment Term Name",
+            "name": "payment_term_name",
+            "data": "payment_terms.payment_term_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Payment Term Description",
+            "name": "payment_term_description",
+            "data": "payment_terms.payment_term_description",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Number of Days",
+            "name": "payment_term_number_of_days",
+            "data": "payment_terms.payment_term_number_of_days",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}
