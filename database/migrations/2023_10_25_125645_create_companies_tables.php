@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string('company_email');
             $table->string('company_phone');
             $table->string('company_city');
-            $table->string('company_tin');
+            $table->integer('company_tin');
             $table->binary('company_logo')->nullable();
             $table->timestamps();
         });
