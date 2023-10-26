@@ -1,0 +1,56 @@
+{
+    "name": "Supplier",
+    "routePrefix": "supplier",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Payment Term ID",
+            "name": "payment_term_id",
+            "data": "suppliers.payment_term_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier First Name",
+            "name": "supplier_first_name",
+            "data": "suppliers.supplier_first_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier Last Name",
+            "name": "supplier_last_name",
+            "data": "suppliers.supplier_last_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier Email",
+            "name": "supplier_email",
+            "data": "suppliers.supplier_email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier Address",
+            "name": "supplier_address",
+            "data": "suppliers.supplier_address",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier Phone Number",
+            "name": "supplier_phone_number",
+            "data": "suppliers.supplier_phone_number",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier Credit Limit",
+            "name": "supplier_limit_credit",
+            "data": "suppliers.supplier_limit_credit",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Supplier TIN",
+            "name": "supplier_tin",
+            "data": "suppliers.supplier_tin",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

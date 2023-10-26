@@ -666,3 +666,179 @@
 [stacktrace]
 #0 {main}
 "} 
+[2023-10-25 12:55:15] local.ERROR: Command "make:migrations" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrations\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find()
+#1 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 C:\\xampp\\htdocs\\accounting-laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2023-10-25 13:00:08] local.ERROR: Uncaught Error: Class "App\Models\CoreCompany" not found in C:\xampp\htdocs\accounting-laravel\app\Models\Company.php:8
+Stack trace:
+#0 C:\xampp\htdocs\accounting-laravel\vendor\composer\ClassLoader.php(576): include()
+#1 C:\xampp\htdocs\accounting-laravel\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 Command line code(1): class_exists()
+#4 [internal function]: {closure}()
+#5 Command line code(1): array_filter()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"App\\Models\\CoreCompany\" not found in C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:8
+Stack trace:
+#0 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\composer\\ClassLoader.php(576): include()
+#1 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#3 Command line code(1): class_exists()
+#4 [internal function]: {closure}()
+#5 Command line code(1): array_filter()
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-25 13:00:30] local.ERROR: Uncaught Error: Class "App\Models\Model" not found in C:\xampp\htdocs\accounting-laravel\app\Models\Company.php:7
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class \"App\\Models\\Model\" not found in C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:7
+Stack trace:
+#0 Command line code(1): include_once()
+#1 {main}
+  thrown at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-25 13:00:47] local.ERROR: syntax error, unexpected token "protected" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"protected\" at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-25 13:01:01] local.ERROR: syntax error, unexpected token "protected", expecting "," or ";" or "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"protected\", expecting \",\" or \";\" or \"{\" at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-25 13:01:07] local.ERROR: syntax error, unexpected token "protected", expecting "," or ";" or "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"protected\", expecting \",\" or \";\" or \"{\" at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-25 13:01:20] local.ERROR: syntax error, unexpected token "$", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"$\", expecting \"function\" or \"const\" at C:\\xampp\\htdocs\\accounting-laravel\\app\\Models\\Company.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-10-26 12:10:08] local.ERROR: Command "make:controllers" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view
+    ui:controllers {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controllers\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view
+    ui:controllers at C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find()
+#1 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\xampp\\htdocs\\accounting-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 C:\\xampp\\htdocs\\accounting-laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 

@@ -17,7 +17,9 @@ class Supplier extends Model
         'supplier_last_name',
         'supplier_email',
         'supplier_address',
-        'supplier_phone_number'
+        'supplier_phone_number',
+        'supplier_limit_credit',
+        'supplier_tin'
     ];
 
     public function paymentTerm()

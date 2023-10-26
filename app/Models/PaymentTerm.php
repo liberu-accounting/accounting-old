@@ -15,7 +15,6 @@ class PaymentTerm extends Model
         'payment_term_name',
         'payment_term_description',
         'payment_term_number_of_days',
-        'payment_term_status'
     ];
 
     public function suppliers()

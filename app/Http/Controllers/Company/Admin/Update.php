@@ -11,7 +11,7 @@ class Update extends Controller
 
     public function __invoke(ValidateCompanyRequest $request, Company $company)
     {
-        $company->fill($request->validated())->save();
+        $company->update($request->validated());
 
         return [
             'message' => __('The company was successfully updated'),

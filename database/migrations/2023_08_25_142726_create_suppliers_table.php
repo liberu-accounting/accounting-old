@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('supplier_email');
             $table->string('supplier_address');
             $table->string('supplier_phone_number');
+            $table->decimal('supplier_limit_credit', 10, 2);
+            $table->integer('supplier_tin');
             $table->timestamps();
 
             $table->foreign('payment_term_id')->references('payment_term_id')->on('payment_terms');

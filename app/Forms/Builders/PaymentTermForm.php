@@ -2,12 +2,12 @@
 
 namespace App\Forms\Builders;
 
-use App\Models\Company;
+use App\Models\PaymentTerm;
 use LaravelLiberu\Forms\Services\Form;
 
-class CompanyForm
+class PaymentTermForm
 {
-    protected const TemplatePath = __DIR__.'/../Templates/company.json';
+    protected const TemplatePath = __DIR__.'/../Templates/paymentTerm.json';
 
     protected Form $form;
 
@@ -21,9 +21,9 @@ class CompanyForm
         return $this->form->create();
     }
 
-    public function edit(Company $company)
+    public function edit(PaymentTerm $paymentTerm)
     {
-        return $this->form->edit($company);
+        return $this->form->edit($paymentTerm);
     }
 
    

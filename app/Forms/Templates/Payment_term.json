@@ -1,0 +1,42 @@
+{
+    "routePrefix": "payment-term",
+    "tabs": true,
+    "sections": [
+        {
+            "tab": "PaymentTerm",
+            "columns": 3,
+            "fields": [
+                {
+                    "label": "Payment Term Name",
+                    "name": "payment_term_name",
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "text"
+                    }
+                },
+                {
+                    "label": "Payment Term Description",
+                    "name": "payment_term_description",
+                    "value": null,
+                    "meta": {
+                        "type": "textarea",
+                        "placeholder": "Enter Description",
+                        "rows": 5,
+                        "resize": true
+                    }
+                },
+                {
+                    "label": "Number of Days",
+                    "name": "payment_term_number_of_days",
+                    "value": null,
+                    "meta": {
+                        "type": "input",
+                        "content": "number"
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
