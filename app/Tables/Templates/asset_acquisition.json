@@ -1,0 +1,32 @@
+{
+    "name": "Asset Acquisition",
+    "routePrefix": "asset-acquisition",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Asset Acquisition ID",
+            "name": "asset_acquisition_id",
+            "data": "asset_acquisitions.asset_acquisition_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Asset ID",
+            "name": "asset_id",
+            "data": "asset_acquisitions.asset_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Acquisition Date",
+            "name": "acquisition_date",
+            "data": "asset_acquisitions.acquisition_date",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Acquisition Price",
+            "name": "acquisition_price",
+            "data": "asset_acquisitions.acquisition_price",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}
